@@ -1,1 +1,12 @@
+# 1) Unzip first, then in Terminal/PowerShell:
+cd path/to/micro-genix-smartsite
 
+# 2) Initialize and commit
+git init
+git add .
+git commit -m "init: Micro-Genix smart site"
+git branch -M main
+
+# 3) Create an EMPTY repo on GitHub called micro-genix-smartsite, then:
+git remote add origin https://github.com/<your-username>/micro-genix-smartsite.git
+git push -u origin main
